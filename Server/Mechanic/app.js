@@ -8,7 +8,7 @@ const accountRoutes = require("./services/accountServices");
 const orderRoutes = require("./services/orderServices");
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://carproapplication.netlify.app",
 };
 
 app.use(cors(corsOptions));

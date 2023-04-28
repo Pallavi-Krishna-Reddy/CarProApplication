@@ -32,7 +32,7 @@ exports.getAllCustomers = (req, res) => {
             request: {
               type: "GET",
               url:
-                "http://localhost:8080/customer/account/findCustById/" +
+                "https://carproapplication-customer.onrender.com/customer/account/findCustById/" +
                 result._id,
             },
           };
